@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.container .icon{
+    width: 60px;
+}
+
+.container img{
+    width: 200px;
+}
+
+.container{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #A3D9D9;
+    width: 100%;
+    height: auto;
+}
+
+footer .privacidad{
+    color: #000;
+    font-weight: bold;
+}
+
+footer .termcond{
+    color: #000;
+    font-weight: bold;
+}
+
+/* Inicia SignUp */
+
+
+.login{
+    width: 100%;
+    padding: 15px;
+}
+
+.form{
+    width: 300px;
+    height: auto;
+    background-color: #F2C9C9;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 3px solid black;
+    font-size: 18px;
+    color: black;
+}
+
+.form .botons{
+    width: 100%;
+    background: #A3D9D9;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/* Termina SignUp */
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: #F2C9C9;
+    }
+
+    /* SLIDER INICIO */
+
+.slider{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+/* Cambie el height de 900px a auto */
+
+.slider ul{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    width: 400%;
+
+    animation: slider 10s infinite alternate;
+    animation-timing-function: linear;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider li img{
+    width: 100%;
+    height: auto;
+}
+
+
+@keyframes slider{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/* SLIDER FINAL */
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        background-color: #F2C9C9;
+    }
+
+    /* SLIDER INICIO */
+
+.slider{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+/* Cambie el height de 900px a auto */
+
+.slider ul{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    width: 400%;
+
+    animation: slider 10s infinite alternate;
+    animation-timing-function: linear;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider li img{
+    width: 100%;
+    height: auto;
+}
+
+
+@keyframes slider{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/* SLIDER FINAL */
+}
